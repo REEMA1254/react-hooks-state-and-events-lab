@@ -36,14 +36,10 @@ span[role="image"] {
   color: transparent;
   text-shadow: 0 0 0 black;
 }
-
-.App.dark {
-  --font-color: rgb(255, 255, 255);
-  --background: rgb(50, 50, 50);
-  --background--light: rgb(80, 80, 80);
-  transition: all 0.3s;
+.App.darkmode{
+  background-color: black;
+  color: white;
 }
-
 .App {
   margin: 2rem auto;
   padding: 1rem 2rem;
@@ -111,3 +107,5 @@ header button {
   color: var(--font-color-light);
   font-size: 0.8em;
 }
+
+ 
